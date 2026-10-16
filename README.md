@@ -1,6 +1,10 @@
 # Dédalo
 
-Dédalo te ayuda a automatizar lo que haces todos los días (empezando por el correo) creando agentes que trabajan en cadena.
+<p align="center">
+  <img src="assets/cover.jpg" alt="Dédalo — Automatiza lo que haces todos los días" width="100%" />
+</p>
+
+**Dédalo** te ayuda a automatizar lo que haces todos los días (empezando por el correo) creando agentes que trabajan en cadena.
 
 Tú le dices qué es importante. Él construye el flujo. Tú le pones un nombre y lo ejecutas cuando quieras.
 
@@ -15,7 +19,7 @@ Si usas **Cursor, Claude Desktop, Windsurf** u otra herramienta con MCP, casi no
 Pide a tu IA (o a alguien técnico) que ejecute esto:
 
 ```bash
-pip install git+https://github.com/TU_USUARIO/dedalo.git
+pip install git+https://github.com/karloskadena84/dedalo.git
 ```
 
 Luego configura Dédalo como servidor MCP en tu herramienta (Cursor / Claude Desktop / etc.).
@@ -82,7 +86,7 @@ o
 
 ```bash
 # Instalar
-pip install git+https://github.com/TU_USUARIO/dedalo.git
+pip install git+https://github.com/karloskadena84/dedalo.git
 
 # Configurar correo
 dedalo connectors add gmail    # o: dedalo connectors add imap
